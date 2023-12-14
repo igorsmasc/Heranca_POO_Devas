@@ -8,4 +8,12 @@ public class Gato extends Animal {
         System.out.println("Miau");
     }
 
+    public void coisaDeGato() {
+
+    }
+
+    @Override
+    public void comer() {
+        System.out.println("Gato comendo");
+    }
 }

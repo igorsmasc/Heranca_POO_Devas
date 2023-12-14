@@ -1,10 +1,5 @@
 package empresa;
 
-import empresa.Atendente;
-import empresa.Funcionario;
-import empresa.Gerente;
-import empresa.Programador;
-
 public class MainEmpresa {
     public static void main(String[] args) {
 

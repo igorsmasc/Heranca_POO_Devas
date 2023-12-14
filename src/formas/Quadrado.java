@@ -1,7 +1,5 @@
 package formas;
 
-import java.util.Random;
-
 public class Quadrado extends FormaGeometrica {
     private Double lado;
 

@@ -1,25 +1,37 @@
 package petshot;// Uma classe abstrata não pode ser instanciada
 // Porém serve como classe Mãe e suas caracteristicas podem ser herdadas
 
-public abstract class Animal {
+public class Animal {
     // Atributos
     private String cor;
     private String especie;
     private int idade;
 
-    public void comer() {
+    // Assinatura de um método
+
+
+    public void comer() { // assinatura = comer()
         System.out.println("Comendo");
     }
 
-//    public petshot.Animal(String cor, String especie) {
-//        this.cor = cor;
-//        this.especie = especie;
-//    }
+    public void comer(String racao) { // assinatura = comer(String)
+        System.out.println("Comendo " + racao);
+    }
+
+    public void comer(String racao, Double quantidade) { // assinatura = comer(String, Double)
+        System.out.println("Comendo " + racao);
+    }
+
+
+
+
 
     // Método abstrado
     // - Declarado mas não implementado.
     // - So podemos ter esse método em classes abstratas
-    public abstract void fazerBarulho();
+    public void fazerBarulho()  {
+
+    };
 
     public String getCor() {
         return this.cor;
